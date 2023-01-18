@@ -112,16 +112,24 @@
 
 * INNET JOIN - выборка производится из результатов которые имеются только в обеих объединяемых таблицах.
 
-        SELECT * FROM table_1 INNER JOIN table_2
+        SELECT * FROM left_table INNER JOIN right_table
+
+![INNER_JOIN](\Z:\GitHub_CJLaB4er\SQL_Instruction\pict\\INNER_JOIN.png)
 
 * LEFT JOIN - выборка производится из результатов которые имеются в обеих таблицах, а также все данные из левой таблицы.
 
-        SELECT * FROM table_1 LEFT JOIN table_2
+        SELECT * FROM left_table LEFT JOIN right_table
+
+![LEFT_JOIN](\Z:\GitHub_CJLaB4er\SQL_Instruction\pict\\LEFT_JOIN.png)
 
 * RIGHT JOIN - выборка производится из результатов которые имеются в обеих таблицах, а также все данные из правой таблицы.
 
-        SELECT * FROM table_1 RIGHT JOIN table_2
+        SELECT * FROM left_table RIGHT JOIN right_table
+
+![RIGHT_JOIN](\Z:\GitHub_CJLaB4er\SQL_Instruction\pict\\RIGHT_JOIN.png)
 
 * FULL JOIN - в выборку попавдают все данные из обеих таблиц.
 
-        SELECT * FROM table_1 FULL JOIN table_2
+        SELECT * FROM left_table FULL JOIN right_table
+
+![FULL_JOIN](\Z:\GitHub_CJLaB4er\SQL_Instruction\pict\\FULL_JOIN.png)
